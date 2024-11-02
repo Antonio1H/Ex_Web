@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Calçados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Estilos dos produtos */
+        .produto-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .produto {
+            background-color: green;
+            color: white;
+            width: 150px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .produto img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Estilos do rodapé */
+        footer {
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Produtos -->
+    <div class="produto-container">
+        <div class="produto">
+            <img src="sapato1imagem.jfif" alt="Calçado 1">
+            <p>Calçado 1</p>
+            <p>R$ 199,90</p>
+        </div>
+        <div class="produto">
+            <img src="sapato2imagem.jfif" alt="Calçado 2">
+            <p>Calçado 2</p>
+            <p>R$ 249,90</p>
+        </div>
+        <div class="produto">
+            <img src="sapato3imagem.jfif" alt="Calçado 3">
+            <p>Calçado 3</p>
+            <p>R$ 179,90</p>
+        </div>
+        <div class="produto">
+            <img src="sapato4imagem.jfif" alt="Calçado 4">
+            <p>Calçado 4</p>
+            <p>R$ 220,00</p>
+        </div>
+        <div class="produto">
+            <img src="sapato5imagem.jfif" alt="Calçado 5">
+            <p>Calçado 5</p>
+            <p>R$ 300,00</p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        Loja de Calçados AH
+    </footer>
+
+</body>
+</html>
